@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Product_Category_CodeFir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_RazorToturial", "02_RazorToturial\02_RazorToturial.csproj", "{6840809A-D915-4225-8FE7-6A9F11F6176C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesTutorialModels", "RazorPagesTutorialModels\RazorPagesTutorialModels.csproj", "{B03D7FB0-DC6C-4A7A-B124-1362105E29C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesTutorialModels", "RazorPagesTutorialModels\RazorPagesTutorialModels.csproj", "{B03D7FB0-DC6C-4A7A-B124-1362105E29C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesTutorialServices", "RazorPagesTutorialServices\RazorPagesTutorialServices.csproj", "{DA00ED44-69DC-4ACB-96A4-52F0BED03934}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B03D7FB0-DC6C-4A7A-B124-1362105E29C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B03D7FB0-DC6C-4A7A-B124-1362105E29C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B03D7FB0-DC6C-4A7A-B124-1362105E29C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA00ED44-69DC-4ACB-96A4-52F0BED03934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA00ED44-69DC-4ACB-96A4-52F0BED03934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA00ED44-69DC-4ACB-96A4-52F0BED03934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA00ED44-69DC-4ACB-96A4-52F0BED03934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
