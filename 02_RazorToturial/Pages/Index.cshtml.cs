@@ -13,6 +13,7 @@ namespace _02_RazorToturial.Pages
         private readonly ILogger<IndexModel> _logger;
 
         public string Message { get; set; }
+        public string SecondMessage { get; set; }
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
@@ -21,6 +22,7 @@ namespace _02_RazorToturial.Pages
         public void OnGet()
         {
             Message = "Hello World Time is " + DateTime.Now.ToLongTimeString();
+            SecondMessage = "Take care..." + DateTime.Now.ToLongTimeString();
         }
     }
 }
