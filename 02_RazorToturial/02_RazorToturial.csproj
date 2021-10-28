@@ -5,4 +5,9 @@
     <RootNamespace>_02_RazorToturial</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RazorPagesTutorialModels\RazorPagesTutorialModels.csproj" />
+    <ProjectReference Include="..\RazorPagesTutorialServices\RazorPagesTutorialServices.csproj" />
+  </ItemGroup>
+
 </Project>
