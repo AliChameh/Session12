@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RazorPagesTutorialModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace RazorPagesTutorialServices
 {
     interface IEmployeeRepository
     {
+        IEnumerable<Employee> GetAllEmployees();
     }
 }
