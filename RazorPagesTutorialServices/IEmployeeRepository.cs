@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RazorPagesTutorialServices
 {
-    interface IEmployeeRepository
+   public interface IEmployeeRepository
     {
         IEnumerable<Employee> GetAllEmployees();
     }
